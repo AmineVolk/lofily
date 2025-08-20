@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import '../../node_modules/sal.js/dist/sal.css';
+@font-face {
+  font-family: 'Agraham';
+  src: url('/fonts/agraham/Agraham.otf');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 28px;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Magilio';
+  src: url('/fonts/magilio/MagilioRegular-8Mxvg.otf');
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 110px;
+  font-display: swap;
+}
+
+html,
+body {
+  user-select: none;
+  font-family: 'Inter';
+  color: white;
+  overflow-x: hidden;
+  background-color: #231526;
+}
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.grecaptcha-badge {
+  opacity: 0 !important;
+}
+a {
+  margin-bottom: 0px !important;
+}
+/* #react-burger-menu-btn {
+  height: 30px !important;
+  width: 30px !important;
+  left: 41px !important;
+  top: 16px !important;
+} */
+.editorClassName {
+  background-color: #392c3b;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  height: max-content !important;
+}
+
+.toolbarClassName {
+  background-color: #392c3b !important;
+  border: 0 !important;
+  border-radius: 10px !important ;
+  padding: 10px !important;
+}
+
+.rdw-option-wrapper {
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222530;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9155;
+  border-radius: 5px;
+}
+
+@layer base {
+  /* #region  /**=========== Typography =========== */
+  .h0 {
+    @apply font-primary text-3xl font-bold md:text-5xl;
+  }
+
+  h1,
+  .h1 {
+    @apply font-primary text-2xl font-bold md:text-4xl;
+  }
+
+  h2,
+  .h2 {
+    @apply font-primary text-xl font-bold md:text-3xl;
+  }
+
+  h3,
+  .h3 {
+    @apply font-primary text-lg font-bold md:text-2xl;
+  }
+
+  h4,
+  .h4 {
+    @apply font-primary text-base font-bold md:text-lg;
+  }
+
+  body,
+  .p {
+    @apply font-primary text-sm md:text-base;
+  }
+  /* #endregion  /**======== Typography =========== */
+
+  .layout {
+    /* 1100px */
+    max-width: 68.75rem;
+    @apply mx-auto w-11/12;
+  }
+
+  .bg-dark a.custom-link {
+    @apply border-gray-200 hover:border-gray-200/0;
+  }
+
+  /* Class to adjust with sticky footer */
+  .min-h-main {
+    @apply min-h-[calc(100vh-56px)];
+  }
+}

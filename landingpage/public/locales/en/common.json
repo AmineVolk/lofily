@@ -1,0 +1,147 @@
+{
+  "navbar": {
+    "contact": "contact",
+    "faq": "faq",
+    "princing": "pricing",
+    "testimonial": "testimonial",
+    "go_to_app_button": "Go to app"
+  },
+  "home": {
+    "typed": "Your Ultimate Lofi Music Haven",
+    "description": "Are you tired of battling constant distractions, struggling to stay on track, and feeling overwhelmed by the chaos of modern life ? Lofily is here to revolutionize your approach to concentration and relaxation. <br/><br/> Get ready to delve into a realm of focus, relaxation, and mindfulness with Lofily, the free web platform that brings you the enchanting world of Lofi music and an array of powerful features."
+  },
+
+  "features": {
+    "music": {
+      "title": "Free Lofi Music Streaming",
+      "description": "Immerse yourself in a diverse selection of Lofi tracks, meticulously curated to help you concentrate, unwind, and find inner peace."
+    },
+    "backgrounds": {
+      "title": "Animated Backgrounds",
+      "description": "Elevate your relaxation journey with our captivating animated backgrounds. Set the perfect atmosphere for your Lofi sessions and let the music soothe your soul."
+    },
+    "effects": {
+      "title": "Free Effects",
+      "description": "Enhance your Lofi experience with a range of complimentary effects. Immerse yourself in ambiance, like rain sounds or keyboard sounds, and take your relaxation to the next level."
+    },
+    "statistics": {
+      "title": "Stats Tracking",
+      "description": "Monitor your meditation and study progress with personalized statistics. Celebrate your achievements and stay motivated."
+    },
+    "timer": {
+      "title": "Pomodoro Timer",
+      "description": "Boost productivity and achieve peak focus using our integrated Pomodoro Timer. Harness the power of time management for academic success."
+    },
+    "notes": {
+      "title": "Note-taking Tool",
+      "description": "Seamlessly jot down your thoughts, ideas, and inspirations as you embrace the Lofi vibe. Stay organized and focused effortlessly."
+    },
+    "youtube": {
+      "title": "YouTube Integration",
+      "description": "Easily import your favorite Lofi tracks from YouTube and create your personalized playlist. Let the melodies guide your journey."
+    },
+    "lofimon": {
+      "title": "Lofimon",
+      "description": "Embark on an extraordinary journey with Lofimon, a one-of-a-kind feature that adds an exciting layer of personalization to your Lofily experience. Choose your Lofimon starter and witness its evolution as you engage with Lofily's immersive world of focus and relaxation."
+    }
+  },
+  "pricing": {
+    "title": "Our flexible pricing",
+
+    "basic": {
+      "title": "Free",
+      "price": "$0",
+      "button": "sign up",
+      "1": "2 animated backgrounds",
+      "2": "Unlimited music streaming",
+      "3": "Effects"
+    },
+    "premium": {
+      "monthly": "monthly",
+      "yearly": "yearly",
+      "title": "premium",
+      "price_monthly": "$3.99",
+      "price_yearly": "$39,90",
+
+      "button": "purchase now",
+      "1": "More animated backgrounds",
+      "2": "Unlimited music streaming",
+      "3": "Effects",
+      "4": "Stats Tracking",
+      "5": "Pomodoro Timer",
+      "6": "Notes",
+      "7": "Youtube Integration",
+      "8": "Lofimon",
+
+      "9": "Priority Support"
+    }
+  },
+  "testimonial": {
+    "title": "What do they say about us",
+    "0": {
+      "img": "/images/testimonials/1.png",
+      "stars": 5,
+      "name": "Sarah",
+      "description": "I can't express how much Lofily has transformed my study sessions! The Lofi music selection is phenomenal, and the animated backgrounds create the perfect ambiance for focused work. The free effects like rain sounds make me feel like I'm in my own little productivity cocoon. It's a game-changer for students like me, and I can't recommend it enough!"
+    },
+    "1": {
+      "img": "/images/testimonials/2.png",
+      "stars": 5,
+      "name": "David",
+      "description": "Lofily has become an integral part of my daily meditation routine. The soothing Lofi beats instantly transport me to a state of tranquility. The premium features, such as the Pomodoro Timer and stats tracking, have helped me stay disciplined and achieve my mindfulness goals. Lofily truly helps me find my center amidst the chaos of everyday life."
+    },
+    "2": {
+      "img": "/images/testimonials/3.png",
+      "stars": 5,
+      "name": "Lisa",
+      "description": "As a busy professional, Lofily has become my secret weapon for relaxation and stress relief. The diverse Lofi music collection combined with the mesmerizing animated backgrounds is like a mini escape during my breaks."
+    }
+  },
+  "faq": {
+    "title": "FAQ",
+    "0": {
+      "question": "What is Lofily ?",
+      "answer": "In today’s fast-paced world, staying focused and productive can be a challenge. Whether you're studying for an important exam, working on a creative project, or simply trying to unwind after a long day, the right music can make all the difference. That’s where Lofily, your go-to lofi app, comes in. We've designed Lofily to be more than just a music player—it's a comprehensive platform that combines the soothing sounds of lofi music with powerful productivity tools to help you concentrate, relax, and stay motivated. <br /> <br /> At the heart of Lofily is an endless stream of carefully curated music lofi tracks, perfect for keeping your mind clear and focused. Whether you're looking for focus music to stay productive or relaxing tunes to enjoy at a virtual lofi cafe, Lofily has it all. Imagine yourself sitting in a cozy lofi cafe, surrounded by the calm, mellow beats of lofi music, helping you stay in the flow while you work, study, or relax. <br /> <br /> Lofily provides a seamless and immersive experience, perfect for anyone looking to create the ideal environment for focus or relaxation. Our app is designed to give you free, uninterrupted access to the best lofi music, making it the perfect companion for those who appreciate the power of music to enhance productivity. Whether you're at home, in a coffee shop, or on the go, Lofily is your ultimate lofi app for streaming the best focus music. <br /><br />But Lofily isn’t just about music. We’ve integrated a range of features that take your productivity to the next level, all while you enjoy your favorite lofi beats. With Lofily, you can set up a cozy atmosphere with animated backgrounds, track your productivity stats, and even use our Pomodoro timer to stay on task. Dive into the world of lofi music with Lofily, and discover how the right tunes and tools can transform your workflow and relaxation time."
+    },
+    "1": {
+      "question": "Is Lofily free to use?",
+      "answer": "Yes, Lofily offers a free web platform that allows users to listen to Lofi music, enjoy animated backgrounds, and access complimentary effects like rain sounds and coffee shop chatter at no cost."
+    },
+    "2": {
+      "question": "What additional features are included in the premium package?",
+      "answer": "By upgrading to our premium package, users gain access to a note-taking tool, more backgrounds, progress and stats tracking, a Pomodoro Timer for enhanced productivity, and the ability to integrate their favorite Lofi tracks from YouTube into personalized playlists."
+    },
+    "3": {
+      "question": "How can Lofily benefit students and professionals?",
+      "answer": "Lofily is a valuable tool for students, offering a focused study environment with Lofi music and productivity tools like note-taking and time management. Professionals can use Lofily to relax, destress, and rejuvenate during breaks, enhancing overall work-life balance."
+    },
+    "4": {
+      "question": "Can I use Lofily for meditation and mindfulness practices?",
+      "answer": "Absolutely! Lofily is perfect for meditation enthusiasts, providing a calming Lofi music collection and mesmerizing animated backgrounds. The free effects, such as waves and crackling fireplace sounds, add to the serene experience."
+    },
+    "5": {
+      "question": "How can I access Lofily's features? Do I need to create an account?",
+      "answer": "Accessing Lofily is easy and straightforward. Users can visit our website and start enjoying the free Lofi music, animated backgrounds, and complimentary effects without the need to create an account. However, to unlock the premium features, users will need to sign up for a premium account."
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "sub_title": "just reach out",
+    "first_name": "Enter First name",
+    "last_name": "Enter Last name",
+    "email": "Your email",
+    "phone": "Phone number",
+    "message": "Message...",
+    "send": "Send",
+    "success": "Message sent successfully",
+    "email_required": "Email required",
+    "name_required": "Name required",
+    "subject_required": "Subject required",
+    "message_required": "Message required",
+    "email_invalid": "Invalid email"
+  },
+  "cookies": {
+    "text": "This website uses cookies to enhance the user experience.",
+    "button": "Accept"
+  }
+}
