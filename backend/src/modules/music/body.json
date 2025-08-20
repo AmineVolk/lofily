@@ -1,0 +1,540 @@
+{
+  "page": 1,
+  "per_page": 20,
+  "total": 12,
+  "total_pages": 1,
+  "links": {
+    "first": "/api/station/1/files/list?internal=true&rowCount=20&current=1&page=1",
+    "previous": "/api/station/1/files/list?internal=true&rowCount=20&current=1&page=1",
+    "next": "/api/station/1/files/list?internal=true&rowCount=20&current=1&page=1",
+    "last": "/api/station/1/files/list?internal=true&rowCount=20&current=1&page=1"
+  },
+  "rows": [
+    {
+      "path": "10_minute_timer_lofi.mp3",
+      "path_short": "10_minute_timer_lofi.mp3",
+      "text": " - 10 minute timer lofi",
+      "timestamp": 1685456774,
+      "size": 14620976,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "1a6a7e44e66c21a3e215004ccc0ba832",
+        "text": " - 10 minute timer lofi",
+        "artist": "",
+        "title": "10 minute timer lofi",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/40d74eef9bdca4315ec6ad84.jpg",
+        "custom_fields": [],
+        "media_id": 11,
+        "unique_id": "40d74eef9bdca4315ec6ad84",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 609,
+        "length_text": "10:09",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/11/play",
+          "edit": "/api/station/1/file/11",
+          "art": "/api/station/1/art/11",
+          "waveform": "/api/station/1/waveform/40d74eef9bdca4315ec6ad84-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=10_minute_timer_lofi.mp3",
+        "rename": "/api/station/1/files/rename?file=10_minute_timer_lofi.mp3"
+      }
+    },
+    {
+      "path": "alain_rine_-_la_boheme_2023.mp3",
+      "path_short": "alain_rine_-_la_boheme_2023.mp3",
+      "text": "alain rine - la boheme 2023",
+      "timestamp": 1685455101,
+      "size": 7245668,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "f3db220b12119edad2f189c71599e901",
+        "text": "alain rine - la boheme 2023",
+        "artist": "alain rine",
+        "title": "la boheme 2023",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/c227c72821a224fa873a761a.jpg",
+        "custom_fields": [],
+        "media_id": 5,
+        "unique_id": "c227c72821a224fa873a761a",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 301,
+        "length_text": "5:01",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/5/play",
+          "edit": "/api/station/1/file/5",
+          "art": "/api/station/1/art/5",
+          "waveform": "/api/station/1/waveform/c227c72821a224fa873a761a-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=alain_rine_-_la_boheme_2023.mp3",
+        "rename": "/api/station/1/files/rename?file=alain_rine_-_la_boheme_2023.mp3"
+      }
+    },
+    {
+      "path": "dj_pantelis_feat.__zara_-_dle_yaman_(original_mix).mp3",
+      "path_short": "dj_pantelis_feat.__zara_-_dle_yaman_(original_mix).mp3",
+      "text": "dj pantelis feat.  zara - dle yaman (original mix)",
+      "timestamp": 1685455183,
+      "size": 9297012,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "a1d8e8fb831600e193daf13e414806ad",
+        "text": "dj pantelis feat.  zara - dle yaman (original mix)",
+        "artist": "dj pantelis feat.  zara",
+        "title": "dle yaman (original mix)",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/2eaf66e5fd1f10926b6bee8a.jpg",
+        "custom_fields": [],
+        "media_id": 6,
+        "unique_id": "2eaf66e5fd1f10926b6bee8a",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 387,
+        "length_text": "6:27",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/6/play",
+          "edit": "/api/station/1/file/6",
+          "art": "/api/station/1/art/6",
+          "waveform": "/api/station/1/waveform/2eaf66e5fd1f10926b6bee8a-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=dj_pantelis_feat.__zara_-_dle_yaman_%28original_mix%29.mp3",
+        "rename": "/api/station/1/files/rename?file=dj_pantelis_feat.__zara_-_dle_yaman_%28original_mix%29.mp3"
+      }
+    },
+    {
+      "path": "dndm_-_morocco_(original_mix).mp3",
+      "path_short": "dndm_-_morocco_(original_mix).mp3",
+      "text": "dndm - morocco (original mix)",
+      "timestamp": 1685456056,
+      "size": 19417057,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "84c3199de5b6aef15865b1667b61b86c",
+        "text": "dndm - morocco (original mix)",
+        "artist": "dndm",
+        "title": "morocco (original mix)",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/dc30536530d5867e7904557d.jpg",
+        "custom_fields": [],
+        "media_id": 8,
+        "unique_id": "dc30536530d5867e7904557d",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 809,
+        "length_text": "13:29",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/8/play",
+          "edit": "/api/station/1/file/8",
+          "art": "/api/station/1/art/8",
+          "waveform": "/api/station/1/waveform/dc30536530d5867e7904557d-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=dndm_-_morocco_%28original_mix%29.mp3",
+        "rename": "/api/station/1/files/rename?file=dndm_-_morocco_%28original_mix%29.mp3"
+      }
+    },
+    {
+      "path": "dndm_-_pochill_porque_(umar_keyn_remix).mp3",
+      "path_short": "dndm_-_pochill_porque_(umar_keyn_remix).mp3",
+      "text": "dndm - pochill porque (umar keyn remix)",
+      "timestamp": 1685457012,
+      "size": 27806752,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "a200dfd9fccac6241bf785161e393460",
+        "text": "dndm - pochill porque (umar keyn remix)",
+        "artist": "dndm",
+        "title": "pochill porque (umar keyn remix)",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/fe6ea1354f54e62243a9e2a1.jpg",
+        "custom_fields": [],
+        "media_id": 12,
+        "unique_id": "fe6ea1354f54e62243a9e2a1",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 1158,
+        "length_text": "19:18",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/12/play",
+          "edit": "/api/station/1/file/12",
+          "art": "/api/station/1/art/12",
+          "waveform": "/api/station/1/waveform/fe6ea1354f54e62243a9e2a1-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=dndm_-_pochill_porque_%28umar_keyn_remix%29.mp3",
+        "rename": "/api/station/1/files/rename?file=dndm_-_pochill_porque_%28umar_keyn_remix%29.mp3"
+      }
+    },
+    {
+      "path": "french_deep_house_mix__best_of_french_deep_house__emma_peters,_edmofo,_crisologo,_vianney.mp3",
+      "path_short": "french_deep_house_mix__best_of_french_deep_ho..._vianney.mp3",
+      "text": " - french deep house mix  best of french deep house  emma peters, edmofo, crisologo, vianney",
+      "timestamp": 1685455885,
+      "size": 67577867,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "cd3f9ef887c61b8d75bc34a3384525ce",
+        "text": " - french deep house mix  best of french deep house  emma peters, edmofo, crisologo, vianney",
+        "artist": "",
+        "title": "french deep house mix  best of french deep house  emma peters, edmofo, crisologo, vianney",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/bbf5d4f4962d0d13ef604cad.jpg",
+        "custom_fields": [],
+        "media_id": 7,
+        "unique_id": "bbf5d4f4962d0d13ef604cad",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 2815,
+        "length_text": "46:55",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/7/play",
+          "edit": "/api/station/1/file/7",
+          "art": "/api/station/1/art/7",
+          "waveform": "/api/station/1/waveform/bbf5d4f4962d0d13ef604cad-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=french_deep_house_mix__best_of_french_deep_house__emma_peters%2C_edmofo%2C_crisologo%2C_vianney.mp3",
+        "rename": "/api/station/1/files/rename?file=french_deep_house_mix__best_of_french_deep_house__emma_peters%2C_edmofo%2C_crisologo%2C_vianney.mp3"
+      }
+    },
+    {
+      "path": "gary_b.b._coleman_-_the_sky_is_crying.mp3",
+      "path_short": "gary_b.b._coleman_-_the_sky_is_crying.mp3",
+      "text": "gary b.b. coleman - the sky is crying",
+      "timestamp": 1685456184,
+      "size": 13276819,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "565f6055fdc10f93a4d3f17b0b62bee5",
+        "text": "gary b.b. coleman - the sky is crying",
+        "artist": "gary b.b. coleman",
+        "title": "the sky is crying",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/490bbd0f77e5ace2f52250b6.jpg",
+        "custom_fields": [],
+        "media_id": 9,
+        "unique_id": "490bbd0f77e5ace2f52250b6",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 553,
+        "length_text": "9:13",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/9/play",
+          "edit": "/api/station/1/file/9",
+          "art": "/api/station/1/art/9",
+          "waveform": "/api/station/1/waveform/490bbd0f77e5ace2f52250b6-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=gary_b.b._coleman_-_the_sky_is_crying.mp3",
+        "rename": "/api/station/1/files/rename?file=gary_b.b._coleman_-_the_sky_is_crying.mp3"
+      }
+    },
+    {
+      "path": "hooverphonic_-_mad_about_you_(live_at_koningin_elisabethzaal_2012).mp3",
+      "path_short": "hooverphonic_-_mad_about_you_(live_at_koningi...al_2012).mp3",
+      "text": "hooverphonic - mad about you (live at koningin elisabethzaal 2012)",
+      "timestamp": 1685455020,
+      "size": 5654497,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "5eb8a95ad1fa3445f9cffe97eb7dd076",
+        "text": "hooverphonic - mad about you (live at koningin elisabethzaal 2012)",
+        "artist": "hooverphonic",
+        "title": "mad about you (live at koningin elisabethzaal 2012)",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/c3c860e7d344f771451069d5.jpg",
+        "custom_fields": [],
+        "media_id": 4,
+        "unique_id": "c3c860e7d344f771451069d5",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 235,
+        "length_text": "3:55",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/4/play",
+          "edit": "/api/station/1/file/4",
+          "art": "/api/station/1/art/4",
+          "waveform": "/api/station/1/waveform/c3c860e7d344f771451069d5-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=hooverphonic_-_mad_about_you_%28live_at_koningin_elisabethzaal_2012%29.mp3",
+        "rename": "/api/station/1/files/rename?file=hooverphonic_-_mad_about_you_%28live_at_koningin_elisabethzaal_2012%29.mp3"
+      }
+    },
+    {
+      "path": "lovers_in_paris__jacob_gurevitsch__spanish_instrumental_acoustic_guitar_music.mp3",
+      "path_short": "lovers_in_paris__jacob_gurevitsch__spanish_in...ar_music.mp3",
+      "text": " - lovers in paris  jacob gurevitsch  spanish instrumental acoustic guitar music",
+      "timestamp": 1685454905,
+      "size": 7288300,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "92d509b8788e275ab7cb0994a1a7d432",
+        "text": " - lovers in paris  jacob gurevitsch  spanish instrumental acoustic guitar music",
+        "artist": "",
+        "title": "lovers in paris  jacob gurevitsch  spanish instrumental acoustic guitar music",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/076ad74956579bc338650e90.jpg",
+        "custom_fields": [],
+        "media_id": 2,
+        "unique_id": "076ad74956579bc338650e90",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 303,
+        "length_text": "5:03",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/2/play",
+          "edit": "/api/station/1/file/2",
+          "art": "/api/station/1/art/2",
+          "waveform": "/api/station/1/waveform/076ad74956579bc338650e90-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=lovers_in_paris__jacob_gurevitsch__spanish_instrumental_acoustic_guitar_music.mp3",
+        "rename": "/api/station/1/files/rename?file=lovers_in_paris__jacob_gurevitsch__spanish_instrumental_acoustic_guitar_music.mp3"
+      }
+    },
+    {
+      "path": "relaxing_waves__lofi_ambient_music__chill_beats_to_relaxstudy_to.mp3",
+      "path_short": "relaxing_waves__lofi_ambient_music__chill_bea...study_to.mp3",
+      "text": " - relaxing waves  lofi ambient music  chill beats to relaxstudy to",
+      "timestamp": 1685456605,
+      "size": 44063901,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "9803f7fe61bcdec091836d4bd4f7e66b",
+        "text": " - relaxing waves  lofi ambient music  chill beats to relaxstudy to",
+        "artist": "",
+        "title": "relaxing waves  lofi ambient music  chill beats to relaxstudy to",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/8b0d1e69753f5bf72fea042d.jpg",
+        "custom_fields": [],
+        "media_id": 10,
+        "unique_id": "8b0d1e69753f5bf72fea042d",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 1835,
+        "length_text": "30:35",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/10/play",
+          "edit": "/api/station/1/file/10",
+          "art": "/api/station/1/art/10",
+          "waveform": "/api/station/1/waveform/8b0d1e69753f5bf72fea042d-0.json"
+        }
+      },
+      "playlists": [
+        {
+          "id": 1,
+          "name": "lofilyAppPlaylist",
+          "short_name": "lofilyappplaylist",
+          "count": 1
+        }
+      ],
+      "links": {
+        "download": "/api/station/1/files/download?file=relaxing_waves__lofi_ambient_music__chill_beats_to_relaxstudy_to.mp3",
+        "rename": "/api/station/1/files/rename?file=relaxing_waves__lofi_ambient_music__chill_beats_to_relaxstudy_to.mp3"
+      }
+    },
+    {
+      "path": "sch-marche-noir-audio-officiel.mp3",
+      "path_short": "sch-marche-noir-audio-officiel.mp3",
+      "text": "SCH - March noir",
+      "timestamp": 1685453953,
+      "size": 4705251,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "6d1eb59d5d6d7214b92aabec9ffde747",
+        "text": "SCH - March noir",
+        "artist": "SCH",
+        "title": "March noir",
+        "album": "March noir",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/5f5d7349b2c4b328d13522c6-1685453953.jpg",
+        "custom_fields": [],
+        "media_id": 1,
+        "unique_id": "5f5d7349b2c4b328d13522c6",
+        "art_updated_at": 1685453953,
+        "is_playable": true,
+        "length": 180,
+        "length_text": "3:00",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/1/play",
+          "edit": "/api/station/1/file/1",
+          "art": "/api/station/1/art/1",
+          "waveform": "/api/station/1/waveform/5f5d7349b2c4b328d13522c6-1685453953.json"
+        }
+      },
+      "playlists": [],
+      "links": {
+        "download": "/api/station/1/files/download?file=sch-marche-noir-audio-officiel.mp3",
+        "rename": "/api/station/1/files/rename?file=sch-marche-noir-audio-officiel.mp3"
+      }
+    },
+    {
+      "path": "simply_falling_-_iyeoka_(official_music_video).mp3",
+      "path_short": "simply_falling_-_iyeoka_(official_music_video).mp3",
+      "text": "simply falling - iyeoka (official music video)",
+      "timestamp": 1685454975,
+      "size": 5703399,
+      "is_dir": false,
+      "is_cover_art": false,
+      "media": {
+        "id": "e38a635746e989cee4a999d2b150845b",
+        "text": "simply falling - iyeoka (official music video)",
+        "artist": "simply falling",
+        "title": "iyeoka (official music video)",
+        "album": "",
+        "genre": "",
+        "isrc": "",
+        "lyrics": "",
+        "art": "/api/station/1/art/a9be3cf42e6c0a594d738ac8.jpg",
+        "custom_fields": [],
+        "media_id": 3,
+        "unique_id": "a9be3cf42e6c0a594d738ac8",
+        "art_updated_at": 0,
+        "is_playable": true,
+        "length": 237,
+        "length_text": "3:57",
+        "links": {
+          "play": "https://azuracast.lofily.com/api/station/1/file/3/play",
+          "edit": "/api/station/1/file/3",
+          "art": "/api/station/1/art/3",
+          "waveform": "/api/station/1/waveform/a9be3cf42e6c0a594d738ac8-0.json"
+        }
+      },
+      "playlists": [],
+      "links": {
+        "download": "/api/station/1/files/download?file=simply_falling_-_iyeoka_%28official_music_video%29.mp3",
+        "rename": "/api/station/1/files/rename?file=simply_falling_-_iyeoka_%28official_music_video%29.mp3"
+      }
+    }
+  ]
+}

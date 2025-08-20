@@ -1,0 +1,22 @@
+version: '3.3'
+services:
+  postgres:
+    image: postgres:13-alpine
+    container_name: lofily-db
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - ${POSTGRES_PORT}:5432
+    volumes:
+      - /docker/volumes/lofily_db:/var/lib/postgresql/data
+  postgres2:
+    image: postgres:13-alpine
+    container_name: lofily-db-test
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER_TEST}
+      - POSTGRES_DB=${POSTGRES_DB_TEST}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD_TEST}
+    ports:
+      - ${POSTGRES_PORT_TEST}:5432
