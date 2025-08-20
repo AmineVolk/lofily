@@ -1,0 +1,339 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "email_required": "Email is required",
+  "email_invalid": "Invalid email address",
+  "password_required": "Password is required",
+  "username_required": "Username required",
+  "logout": "Logout",
+  "cancel": "cancel",
+  "confirm": "confirm",
+  "unknown_artist": "Uknown artiste",
+
+  "info_popin": {
+    "android": "While we recommend using Lofily on a PC for the best experience, it's also functional on mobile devices.",
+    "ios": "Don't forget to  <b>turn off silent</b>  mode to enjoy the soothing music. Feel free to dive into a world of focus and relaxation. Happy listening!"
+  },
+  "nav": {
+    "app_name": "Pomodoroio",
+    "settings": "Settings",
+    "report": "Report",
+    "login": "Login",
+    "profile": "Profile",
+    "menu": {
+      "logout": "Logout"
+    },
+    "premium": "Unlock the full Lofily \nexperience with Premium"
+  },
+  "pricing": {
+    "input_title": "Please enter your card details :",
+    "title": "premium",
+    "monthly": "monthly",
+    "yearly": "yearly",
+    "month": "month",
+    "year": "year",
+    "amount": "$ {{amount}}",
+    "button": "Upgrade now",
+    "1": "More animated backgrounds",
+    "2": "Unlimited music streaming",
+    "3": "Effects",
+    "4": "Stats Tracking",
+    "5": "Pomodoro Timer",
+    "6": "Notes",
+    "7": "Youtube Integration",
+    "8": "Lofimon",
+    "9": "Priority Support",
+    "description": "7 day money back guarantee",
+    "signup": "Sign Up or login to upgrade",
+    "tooltip": "If you're not happy with your subscription, contact us via email within 7 days for a full refund.",
+    "secure_text": "Encrypted, safe & secure"
+  },
+  "premium_description": {
+    "2": {
+      "title": "Notes",
+      "description": "The Note-taking Tool feature enables users to jot down and organize their thoughts, ideas, and inspirations seamlessly while using the Lofily platform. This tool is designed to enhance productivity and provide a convenient way for users to capture important information during their Lofi music sessions."
+    },
+    "3": {
+      "title": "Stats",
+      "description": "Graphical representation of data that provides insights, summaries, and visualizations of various aspects of the application's usage, performance, or user behavior."
+    },
+    "6": {
+      "title": "Timer",
+      "description": "Improve your productivity and concentration by working in short, intense bursts and giving yourself regular breaks to rest and recharge."
+    },
+    "8": {
+      "title": "Youtube integration",
+      "description": "The YouTube Integration feature allows users to seamlessly import their favorite Lofi tracks from YouTube and create personalized playlists within the Lofily platform."
+    },
+    "9": {
+      "title": "Lofimon",
+      "description": "Select your Lofimon starter and set out on a unique journey of transformation. Through the use of Lofily's features, your chosen Lofimon evolves, adapting and growing alongside your experience. Witness the remarkable evolution of your Lofimon as it matures into a harmonious companion."
+    },
+    "background": {
+      "description": "Yous should subscribe to the premium plan to have access to these backgrounds."
+    }
+  },
+  "statistic": {
+    "title": "Statistic",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "description": "In the last {{day}} days you have enjoyed music for {{time}}"
+  },
+  "youtube": {
+    "input_placeholder": "Paste a youtube video URL and press enter"
+  },
+  "profile": {
+    "title": "Profile informations",
+    "email": "Email",
+    "fullname": "Fullname",
+    "company": "Company",
+    "designation": "Designation",
+    "fullname_required": "Please enter your fullname."
+  },
+  "login": {
+    "title": "Welcome to Lofily",
+    "sub_title": "Login to your account",
+    "button": "Login",
+    "forgot_password": "Forgot password?",
+    "signup": "Sign Up",
+    "failed": "Email or password invalid"
+  },
+  "signup": {
+    "title": "Sign Up for free",
+    "username": "Username",
+    "agree_title": "By signing up, you agree to our",
+    "agree_link": "<a href='https://lofily.com/privacypolicy' target='_blank'><u>Privacy Policy</u></a> & <a href='https://lofily.com//termsofservices' target='_blank'><u>Terms of Service<u/></a>",
+    "button": "Sign Up",
+    "login": "Log In",
+    "already_exist": "Account with this email already exist",
+    "success": "An email has been sent to the email address provided. Please click on the link in your email to confirm your registration."
+  },
+  "forgot_password": {
+    "title": "Forgot your password?",
+    "description": "That's okay, it happens! Enter your email and click",
+    "description2": "on the button below to reset your password.",
+    "forgot_button": "Send",
+    "email_not_exist": "Email dont exist",
+    "success": "An email has been sent to the provided email address."
+  },
+  "reset_password": {
+    "title": "Reset your password",
+    "password_required": "Password is required",
+    "confirm_password_required": "Please confim your password",
+    "confirm_password_error": "The confirmed password should be similar to the password.",
+    "reset_button": "Reset password",
+    "success": "Email was reset successfully! you will be redirected to the login page."
+  },
+  "note": {
+    "title": "notes groups",
+    "default_group_name": "Note group name"
+  },
+  "backgrounds": {
+    "title": "backgrounds"
+  },
+  "setting": {
+    "header": {
+      "settings": "User Settings",
+      "features": "Features",
+      "contact": "Contact Us",
+      "faq": "FAQ",
+      "share": "Share"
+    },
+    "membership": {
+      "title": "Membership",
+      "plan_title": "Premium Plan - ",
+      "payment_method": "Payment Method",
+      "card_renew": "Renew on {{date}}",
+      "card_number": "**** **** **** {{last4degit}}",
+      "cancel_subscription": "Cancel subscription",
+      "cancel_subscription_success": "Your subscription canceled successfully.",
+      "cancel_subscription_error": "Error when traying to cancel your subscription, please retry later.",
+      "confirm_cancel_dialog": {
+        "title": "Cancel current subscription"
+      },
+      "download_invoice": "Download your invoice",
+      "cancel_requested": "Your cancelled subscription will end on "
+    },
+    "infos": {
+      "title": "Information"
+    },
+    "change_password": {
+      "title": "Change Password",
+      "current_password": "Current password",
+      "new_password": "New Password",
+      "confim": "Confirm",
+      "error": "New password and confirm password are differents !",
+      "success": "Password updated successfully",
+      "invalid_current_password": "The current password is invalid."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "sub_title": "If you need assistance or if you are a Lofi music producer interested in being featured on our website, feel free to contact us !",
+      "send": "Send"
+    },
+    "share": {
+      "title": "Love lofily? share it : "
+    },
+    "features": {
+      "0": {
+        "title": "Music",
+        "description": "We strive to ensure that all the music featured on our platform respects copyright laws and the intellectual property rights of artists and content creators. We curate our Lofi music collection from sources that offer music under copyright-free licenses, Creative Commons licenses, paid licences, or with explicit permission from the original authors. Each artist's work is credited and acknowledged whenever their music is played on our platform."
+      },
+      "1": {
+        "title": "Timer",
+        "description": "The Pomodoro Timer feature allows users to break their work or study sessions into focused intervals, typically 25 minutes long, followed by short breaks. Users can also add and manage tasks during these intervals, enhancing productivity and time management."
+      },
+      "2": {
+        "title": "Notes",
+        "description": "The Note-taking Tool feature enables users to jot down and organize their thoughts, ideas, and inspirations seamlessly while using the Lofily platform. This tool is designed to enhance productivity and provide a convenient way for users to capture important information during their Lofi music sessions."
+      },
+      "3": {
+        "title": "Backgrounds",
+        "description": "The Animated Backgrounds feature offers users captivating visuals that accompany their Lofi music experience. These mesmerizing animations create the perfect ambiance and allow users to immerse themselves fully in a relaxing and soothing environment while enjoying their favorite tunes. The animated backgrounds enhance the overall Lofily experience, making it a delightful journey for relaxation and focus."
+      },
+      "4": {
+        "title": "Effects",
+        "description": "The Effects feature provides users with a selection of complimentary audio enhancements that enrich their Lofi music experience. These effects include ambient sounds like rain, ocean, people talking, and more. By incorporating these atmospheric elements, users can tailor their listening sessions to their preferences, creating a personalized and immersive environment that promotes relaxation, concentration, and mindfulness."
+      },
+      "5": {
+        "title": "Statistics",
+        "description": "Graphical representation of data that provides insights, summaries, and visualizations of various aspects of the application's usage, performance, or user behavior."
+      },
+      "6": {
+        "title": "Youtube",
+        "description": "The YouTube Integration feature allows users to seamlessly import their favorite Lofi tracks from YouTube and create personalized playlists within the Lofily platform."
+      },
+      "7": {
+        "title": "Lofimon",
+        "description": "Select your Lofimon starter and set out on a unique journey of transformation. Through the use of Lofily's features, your chosen Lofimon evolves, adapting and growing alongside your experience. Witness the remarkable evolution of your Lofimon as it matures into a harmonious companion."
+      }
+    },
+    "inactivity": {
+      "title": "Miscellaneous",
+      "sub_title": "Hide all elements after",
+      "disabled": "disabled",
+      "10s": "10s",
+      "20s": "20s",
+      "30s": "30s"
+    }
+  },
+  "timer": {
+    "settings": {
+      "title": "timer settings",
+      "pomodoro_time": "Work session duration",
+      "pomodoro_time_required": "Pomodoro time required",
+      "short_break": "Short break duration",
+      "short_break_required": "Short break required",
+      "long_break": "Long break duration",
+      "long_break_required": "Long break required",
+      "long_break_interval": "Long break interval",
+      "long_break_interval_required": "Long break interval required"
+    },
+    "type": {
+      "pomodoro": "work session",
+      "short_break": "short break",
+      "long_break": "long break"
+    },
+    "add_task": "Add task",
+    "neew_task_placeholder": "New task ",
+    "nbr_pomodoro": "Rounds",
+    "to_day": "Today",
+    "yesterday": "Yesterday"
+  },
+  "effects": {
+    "title": "Effects"
+  },
+  "contact": {
+    "title": "Contact us",
+    "sub_title": "just reach out",
+    "first_name": "Enter First name",
+    "last_name": "Enter Last name",
+    "email": "Your email",
+    "phone": "Phone number",
+    "message": "Message...",
+    "send": "Send",
+    "success": "Message sent successfully",
+    "email_required": "Email required",
+    "name_required": "Name required",
+    "subject_required": "Subject required",
+    "message_required": "Message required",
+    "email_invalid": "Invalid email"
+  },
+  "payment": {
+    "title": "Lofily subscription",
+    "buy": "Pay",
+    "subscribe": "Subscribe",
+    "error": "Oups ! there is an error with the payment, please retry.",
+    "success": "Payment success, the page will be reloaded.",
+    "have_coupon": "Have a coupon ?",
+    "invalid_coupon": "Invalid coupon code"
+  },
+  "lofimon": {
+    "title": "Choose your starter",
+    "description": "As you immerse yourself in Lofily's features, your chosen Lofimon will evolve based on your interactions. Engage with Lofily, discover soothing tracks, and embrace the power of Lofi.",
+    "description2": "Experience a dynamic connection with your evolving Lofimon, enhancing your moments of relaxation and focus.",
+    "next_evolve": "Next evolve",
+    "change_starter": "Change starter",
+    "confirm_lofimon": "Are you sure you want to choose this Lofimon ?",
+    "confirm_reset": "Are you sure you want to change your starter?",
+    "confirm_reset_description": "This action will reset your statistics, and the current progress will be lost.",
+    "0": {
+      "title": "ice",
+      "0": {
+        "title": "Leolix",
+        "description": "Leolix, the glacial marvel in the world of Lofily! With an icy aura that glistens like frost, Leolix brings a refreshing chill to your Lofily journey.",
+        "description2": "Leolix's glacial presence blankets your experience in a serene stillness, creating an oasis of calm amidst life's chaos."
+      },
+      "1": {
+        "title": "Fluzelle",
+        "description": "Fluzelle, the majestic evolution of Leolix! With an aura that shimmers like ice crystals in the sunlight, Fluzelle elevates your Lofily journey to a realm of ethereal serenity.",
+        "description2": "Fluzelle embodies your ascent towards inner harmony. Let its icy essence guide you through focused tasks and moments of tranquil introspection."
+      },
+      "2": {
+        "title": "Xsar",
+        "description": "Xsar, the ultimate evolution of Leolix's legacy! With an aura that resonates like a glacier's heartbeat, Xsar ushers in a new era of focus and tranquility to your Lofily journey.",
+        "description2": "Xsar stands as a testament to your journey of ascendance. Allow its icy essence to empower you, guiding you through tasks with a tranquil resolve."
+      }
+    },
+    "1": {
+      "title": "electric",
+      "0": {
+        "title": "Tigette",
+        "description": "Tigette's presence electrifies your musical adventure. Its vibrant aura enhances the beats of Lofi tracks, creating an ambiance that's as invigorating as a thunderstorm.",
+        "description2": "Let Tigette's energy spark your creativity and amplify your focus as you dive into the world of calm and concentration."
+      },
+      "1": {
+        "title": "Spinora",
+        "description": "Spinora, the electrifying evolution of Tigette! With a dynamic energy that swirls like a vortex, Spinora propels your Lofily experience to exhilarating new heights.",
+        "description2": "Spinora's electric aura creates a whirlwind of concentration, propelling your tasks with a cyclone of determination and precision."
+      },
+      "2": {
+        "title": "Jagaring",
+        "description": "Jagaring, the electrifying culmination of Tigette's evolution! With a fierce energy that roars like thunder, Jagaring charges your Lofily experience with an electrifying surge of power.",
+        "description2": "Feel the mastery of Jagaring's presence melding with your chosen ambiance, crafting an environment that sparks ingenuity and amplifies your motivation."
+      }
+    },
+    "2": {
+      "title": "rock",
+      "0": {
+        "title": "Dranite",
+        "description": "Dranite, the unyielding force hewn from the heart of the earth! With a rock-solid aura that echoes ancient strength, Dranite brings steadfast resolve to your Lofily journey.",
+        "description2": "Dranite's unshakeable presence encapsulates the endurance of mountains, infusing your focus sessions with unwavering determination."
+      },
+      "1": {
+        "title": "Rockyte",
+        "description": "Rockyte, the fortified evolution of Dranite! With an aura that emanates unyielding determination, Rockyte propels your Lofily journey to the pinnacle of steadfast focus.",
+        "description2": "Rockyte's unbreakable aura envelops your sessions with enduring strength, infusing your tasks with resolute determination."
+      },
+      "2": {
+        "title": "Blockus",
+        "description": "Blockus, the monumental culmination of Dranite's evolution! With an aura that radiates the enduring power of ancient stone, Blockus raises your Lofily journey to monumental heights of unwavering focus.",
+        "description2": "Blockus stands as a testament to your journey of triumph over challenges. Let its rock-solid essence inspire you to surpass obstacles with impenetrable determination."
+      }
+    }
+  },
+  "udpate": "Update",
+  "save": "Save",
+  "start": "Start",
+  "pause": "Pause"
+}

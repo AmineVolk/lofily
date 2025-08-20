@@ -1,0 +1,8 @@
+<svg>
+  <defs>
+    <linearGradient id="timer-color-gradient" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="5%" stopColor="gold" />
+      <stop offset="95%" stopColor="red" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+html,
+body {
+  height: 100%;
+  user-select: none;
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+  overflow-y: hidden;
+}
+#__next {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#taskcheckbox {
+  background-color: red;
+}
+.stripeelement {
+  color: white;
+}
+.editorClassName {
+  background-color: #392c3b;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 5px 10px;
+  height: max-content !important;
+}
+
+.toolbarClassName {
+  background-color: #392c3b !important;
+  border: 0 !important;
+  border-radius: 10px !important ;
+  padding: 10px !important;
+}
+.wrapperClassName {
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #222530;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #392c3b;
+  border-radius: 5px;
+}
+
+@layer base {
+  /* #region  /**=========== Typography =========== */
+  .h0 {
+    @apply font-primary text-3xl font-bold md:text-5xl;
+  }
+
+  h1,
+  .h1 {
+    @apply font-primary text-2xl font-bold md:text-4xl;
+  }
+
+  h2,
+  .h2 {
+    @apply font-primary text-xl font-bold md:text-3xl;
+  }
+
+  h3,
+  .h3 {
+    @apply font-primary text-lg font-bold md:text-2xl;
+  }
+
+  h4,
+  .h4 {
+    @apply font-primary text-base font-bold md:text-lg;
+  }
+
+  body,
+  .p {
+    @apply font-primary text-sm md:text-base;
+  }
+  /* #endregion  /**======== Typography =========== */
+
+  .layout {
+    /* 1100px */
+    max-width: 68.75rem;
+    @apply mx-auto w-11/12;
+  }
+
+  .bg-dark a.custom-link {
+    @apply border-gray-200 hover:border-gray-200/0;
+  }
+
+  /* Class to adjust with sticky footer */
+  .min-h-main {
+    @apply min-h-[calc(100vh-56px)];
+  }
+}

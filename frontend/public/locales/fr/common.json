@@ -1,0 +1,15 @@
+{
+  "login": {
+    "title": "Authentifaction"
+  },
+  "nav": {
+    "app_name": "Pomodoro",
+    "settings": "Configuration",
+    "report": "Rapport",
+    "login": "Se connecter",
+    "menu": {
+      "profile": "Mon profile",
+      "logout": "Deconnexion"
+    }
+  }
+}
