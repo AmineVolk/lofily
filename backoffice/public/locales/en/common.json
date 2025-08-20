@@ -1,0 +1,103 @@
+{
+  "app_name": "Lofily",
+  "create": "Create",
+  "cancel": "Cancel",
+  "save": "Save",
+  "remove": "Remove",
+  "confirm": "Confirm",
+  "export_excel": "Export Excel",
+  "yes": "yes",
+  "no": "no",
+  "login": {
+    "title": "Signin to Lofily Admin",
+    "button": "Login",
+    "login_failed": "Login failed",
+    "success": "Login success"
+  },
+  "menu": {
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "background": "Background",
+    "category": "Category",
+    "effects": "Effects"
+  },
+  "users": {
+    "title": "Users",
+    "edit_dialog": {
+      "title": "Edit user",
+      "email_required": "Email required",
+      "email_invalid": "Email invalid",
+      "username_required": "User name required",
+      "email_confirmed": "Email confirmed :",
+      "user_type": "User type :"
+    }
+  },
+  "category": {
+    "empty_description": "There is no category to display",
+    "confirm_delete_category": "Delete the category?",
+    "title": "Categories",
+    "new": "New category",
+    "dialog": {
+      "edit_title": "Edit category",
+      "name_placeholder": "Cateogry name",
+      "type": {
+        "title": "Type",
+        "free": "Freemium",
+        "premium": "Premium"
+      }
+    },
+    "already_exist": "Category name already exists !"
+  },
+  "background": {
+    "title": "Background videos",
+    "new": "New background videos",
+    "confirm_delete_background": "Delete the background?",
+    "empty_description": "There is no background to display",
+    "categories_select": "Select cateogry",
+    "create_without_upload": "You should upload a video to create a background !",
+    "is_default": "Is the default background for this category?",
+    "required_categories": "You should create categories before creating backgrounds",
+    "default_already_exist": "A default background already exists for the <strong>{{name}}</strong> category.",
+    "columns": {
+      "cover": "Cover",
+      "name": "Name",
+      "number": "Number of images",
+      "type": "type",
+      "action": "action"
+    },
+    "dialog": {
+      "edit": "Edit background",
+      "upload": "Upload background video",
+      "invalid_upload_type": "You should only upload videos",
+      "cover": "Cover image"
+    },
+    "upload_desktop_title": "Background videos for desktop",
+    "upload_desktop_title_edit": "Update background videos for desktop",
+    "upload_mobile_title": "Background videos for mobile",
+    "upload_mobile_title_edit": "Update background videos for mobile",
+    "drag_and_drop_description": "Drag & Drop your background videos",
+    "drag_and_drop_description_mobile": "Drag & Drop your MOBILE background videos",
+    "drag_and_drop_description_mobile_subtitle": "If you dont upload a mobile video, we will use automaticaly the desktop video."
+  },
+  "effects": {
+    "title": "Effects",
+    "name": "Name",
+    "url": "Url",
+    "empty_description": "There is no effects sound to display",
+    "confirm_delete_effect": "Delete the effect ?",
+    "new": "New effect sound"
+  },
+  "dashboard": {
+    "user_stats_title": "Number of users",
+    "user_premium_stats_title": "Number of premium users",
+    "listened_music_title": "Listened Music Report",
+    "background": {
+      "title": "More used backgrounds",
+      "description": "Used by {{count}} users"
+    },
+    "effect": {
+      "title": "More listened effects",
+      "description": "Used by {{count}} users"
+    }
+  }
+}
