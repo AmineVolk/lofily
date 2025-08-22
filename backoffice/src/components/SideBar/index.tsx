@@ -49,6 +49,13 @@ const SideBar = () => {
         selected={currentMenuItem === 4}
         onClick={() => update(['currentMenuItem'], 4)}
       />
+      <MenuItem
+        text={t('menu.music')}
+        icon='/images/menu/music.svg'
+        iconSelected='/images/menu/music-selected.svg'
+        selected={currentMenuItem === 5}
+        onClick={() => update(['currentMenuItem'], 5)}
+      />
     </div>
   );
   if (isMedium)

@@ -19,7 +19,8 @@
     "users": "Users",
     "background": "Background",
     "category": "Category",
-    "effects": "Effects"
+    "effects": "Effects",
+    "music": "Music"
   },
   "users": {
     "title": "Users",
@@ -86,6 +87,23 @@
     "empty_description": "There is no effects sound to display",
     "confirm_delete_effect": "Delete the effect ?",
     "new": "New effect sound"
+  },
+  "music": {
+    "title": "Music",
+    "new": "New music",
+    "confirm_delete_music": "Delete the music?",
+    "empty_description": "There is no music to display",
+    "create_without_upload": "You should upload an audio file to create music!",
+    "is_default": "Is the default music?",
+    "delete_title": "Delete music",
+    "delete_description": "Are you sure you want to delete this music?",
+    "dialog": {
+      "edit": "Edit music",
+      "upload": "Upload music file",
+      "invalid_upload_type": "You should only upload audio files"
+    },
+    "upload_title": "Music files",
+    "drag_and_drop_description": "Drag & Drop your music files"
   },
   "dashboard": {
     "user_stats_title": "Number of users",

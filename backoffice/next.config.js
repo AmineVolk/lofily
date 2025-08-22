@@ -3,7 +3,12 @@ const { i18n } = require('./next-i18next.config');
 
 const nextConfig = {
   images: {
-    domains: ['platform-lookaside.fbsbx.com', 'lh3.googleusercontent.com'],
+    domains: [
+      'platform-lookaside.fbsbx.com',
+      'lh3.googleusercontent.com',
+      'localhost',
+      'lofily.com',
+    ],
     minimumCacheTTL: 3600,
   },
   eslint: {

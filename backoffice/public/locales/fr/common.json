@@ -1,5 +1,39 @@
 {
+  "app_name": "Lofily",
+  "create": "Créer",
+  "cancel": "Annuler",
+  "save": "Sauvegarder",
+  "remove": "Supprimer",
+  "confirm": "Confirmer",
+  "export_excel": "Exporter Excel",
+  "yes": "oui",
+  "no": "non",
   "login": {
     "title": "Authentifaction"
+  },
+  "menu": {
+    "dashboard": "Tableau de bord",
+    "users": "Utilisateurs",
+    "background": "Arrière-plans",
+    "category": "Catégories",
+    "effects": "Effets",
+    "music": "Musique"
+  },
+  "music": {
+    "title": "Musique",
+    "new": "Nouvelle musique",
+    "confirm_delete_music": "Supprimer la musique ?",
+    "empty_description": "Il n'y a pas de musique à afficher",
+    "create_without_upload": "Vous devez télécharger un fichier audio pour créer de la musique !",
+    "is_default": "Est-ce la musique par défaut ?",
+    "delete_title": "Supprimer la musique",
+    "delete_description": "Êtes-vous sûr de vouloir supprimer cette musique ?",
+    "dialog": {
+      "edit": "Modifier la musique",
+      "upload": "Télécharger un fichier musique",
+      "invalid_upload_type": "Vous ne devez télécharger que des fichiers audio"
+    },
+    "upload_title": "Fichiers musique",
+    "drag_and_drop_description": "Glissez et déposez vos fichiers musique"
   }
 }

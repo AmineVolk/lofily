@@ -2,6 +2,8 @@ export const BACKGROUND_FOLDER_PATH = './public/backgrounds/';
 export const BACKGROUND_FOLDER = 'backgrounds/';
 export const EFFECT_FOLDER = 'effects/';
 export const EFFECT_FOLDER_PATH = './public/effects/';
+export const MUSIC_FOLDER_PATH = './public/musics/';
+export const MUSIC_FOLDER = 'musics/';
 
 export const THUMBNAIL_FOLDER_PATH_API = 'thumbnail/';
 export const THUMBNAIL_FOLDER_PATH_API_MOBILE = 'thumbnail/mobile/';

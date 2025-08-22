@@ -10,6 +10,7 @@ import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserModule } from '../user/user.module';
 import { join } from 'path';
+
 @Module({
   imports: [
     ConfigModule.forRoot({
@@ -23,24 +24,43 @@ import { join } from 'path';
         EMAIL_FORGOT_PASSWORD_URL: Joi.string().required(),
       }),
     }),
-    MailerModule.forRoot({
-      transport: {
-        host: 'mail.infomaniak.com',
-        secure: false,
-        auth: {
-          user: process.env.EMAIL_USER,
-          pass: process.env.EMAIL_PASSWORD,
-        },
-      },
-      defaults: {
-        from: '"Lofily.com" <hello@lofily.com>',
-      },
-      template: {
-        dir: join(__dirname, 'templates'),
-        adapter: new HandlebarsAdapter(),
-        options: {
-          strict: true,
-        },
+    MailerModule.forRootAsync({
+      useFactory: () => {
+        if (process.env.NODE_ENV === 'production') {
+          return {
+            transport: {
+              host: 'mail.infomaniak.com',
+              secure: false,
+              auth: {
+                user: process.env.EMAIL_USER,
+                pass: process.env.EMAIL_PASSWORD,
+              },
+            },
+            defaults: {
+              from: '"Lofily.com" <hello@lofily.com>',
+            },
+            template: {
+              dir: join(__dirname, 'templates'),
+              adapter: new HandlebarsAdapter(),
+              options: { strict: true },
+            },
+          };
+        }
+
+        // dev mode → utilise Ethereal (SMTP de test)
+        return {
+          transport: {
+            host: 'smtp.ethereal.email',
+            port: 587,
+            auth: {
+              user: 'monty.kreiger@ethereal.email',
+              pass: 'VrdjZYqkaeAcBHPzWP',
+            },
+          },
+          defaults: {
+            from: '"Dev Mode" <dev@example.com>',
+          },
+        };
       },
     }),
     UserModule,

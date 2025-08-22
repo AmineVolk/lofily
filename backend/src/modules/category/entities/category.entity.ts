@@ -1,13 +1,15 @@
-import { IsNotEmpty } from 'class-validator';
-import { Background } from 'src/modules/background/entities/background.entity';
 import {
   Column,
-  PrimaryGeneratedColumn,
   CreateDateColumn,
-  UpdateDateColumn,
   Entity,
   OneToMany,
+  PrimaryGeneratedColumn,
+  UpdateDateColumn,
 } from 'typeorm';
+
+import { Background } from 'src/modules/background/entities/background.entity';
+import { IsNotEmpty } from 'class-validator';
+import { Music } from 'src/modules/music/entities/music.entity';
 
 @Entity()
 export class Category {
@@ -35,6 +37,9 @@ export class Category {
 
   @OneToMany(() => Background, (background) => background.category)
   backgrounds: Background[];
+
+  // @OneToMany(() => Music, (music) => music.category)
+  // musics: Music[];
 
   constructor(partial: Partial<Category> = {}) {
     Object.assign(this, partial);

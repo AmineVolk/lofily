@@ -1,15 +1,14 @@
 import { BadRequestException, Injectable } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
-import VerificationTokenPayload from '../user/entities/verification-token-payload.interface';
-import { MailerService } from '@nestjs-modules/mailer';
-
 import { sign, verify } from 'jsonwebtoken';
 
-import { UserService } from '../user/user.service';
-import { Strings } from 'src/constants/strings';
-import { NotFoundException } from 'src/error/notFound.exception';
+import { ConfigService } from '@nestjs/config';
 import ContactDTO from './dto/contact.dto';
 import { HttpService } from '@nestjs/axios';
+import { MailerService } from '@nestjs-modules/mailer';
+import { NotFoundException } from 'src/error/notFound.exception';
+import { Strings } from 'src/constants/strings';
+import { UserService } from '../user/user.service';
+import VerificationTokenPayload from '../user/entities/verification-token-payload.interface';
 
 type RecaptchaResponseType = {
   success: boolean;

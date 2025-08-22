@@ -10,6 +10,7 @@ import { Category } from '@/components/Category';
 import Layout from '@/components/common/Layout';
 import { Dashboard } from '@/components/Dashboard';
 import { Effects } from '@/components/Effects';
+import { Music } from '@/components/Music';
 import { Users } from '@/components/Users';
 
 import { AuthApi } from '@/services/api/Auth';
@@ -28,6 +29,7 @@ export default function HomePage() {
     2: () => <Category />,
     3: () => <Background />,
     4: () => <Effects />,
+    5: () => <Music />,
   });
 
   const item = currentMenuItem as number;

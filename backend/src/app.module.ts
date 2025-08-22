@@ -3,6 +3,7 @@ import { AppService } from './app.service';
 import { AuthModule } from './modules/auth/auth.module';
 import { BackgroundModule } from './modules/background/background.module';
 import { CategoryModule } from './modules/category/category.module';
+import { ConfigModule } from '@nestjs/config';
 import { EmailModule } from './modules/email/email.module';
 import { EventTrackModule } from './modules/event-track/event-track.module';
 import { Module } from '@nestjs/common';
@@ -14,11 +15,10 @@ import { PaymentsModule } from './modules/payments/payments.module';
 import { PomodoroModule } from './modules/pomodoro/pomodoro.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { TasksModule } from './modules/tasks/tasks.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { UserModule } from './modules/user/user.module';
 import { UserMusicEffectsModule } from './modules/user-music-effects/user-music-effects.module';
 import { join } from 'path';
-import { ConfigModule } from '@nestjs/config';
-import { TypeOrmModule } from '@nestjs/typeorm';
 
 const dbConfig = {
   type: 'postgres' as const,
@@ -27,11 +27,7 @@ const dbConfig = {
   username: process.env.POSTGRES_USER,
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
-  entities: ['dist/**/*.entity{.ts,.js}'],
   synchronize: true,
-  migrations: ['dist/migrations/*{.ts,.js}'],
-  migrationsTableName: 'migrations_typeorm',
-  migrationsRun: false,
   autoLoadEntities: true,
 };
 
@@ -49,6 +45,11 @@ console.log('Database config:', {
     }),
     ServeStaticModule.forRoot({
       rootPath: join(__dirname, '..', 'public'),
+      serveRoot: '/',
+      serveStaticOptions: {
+        index: false, // Ne pas essayer de servir index.html
+        fallthrough: false, // Ne pas essayer de servir des fichiers par défaut
+      },
     }),
     TypeOrmModule.forRoot(dbConfig),
     UserModule,

@@ -4,6 +4,7 @@ import { Trans } from 'react-i18next';
 import { NbrUserOfBackground } from '@/Dto/Stats/UserStats.dto';
 
 import { Card } from '../common/Card';
+
 const BackgroundStats = ({ data }: { data: NbrUserOfBackground[] }) => {
   const RADIAN = Math.PI / 180;
 

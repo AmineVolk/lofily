@@ -2,6 +2,7 @@ import { DEFAULT_PAGINATION_LIMIT } from '@/constant';
 import { GetBackgroundDto } from '@/Dto/Background/GetBackground.dto';
 import { GetCategoryDto } from '@/Dto/Category/GetCategory.dto';
 import { GetEffectDto } from '@/Dto/Effects/GetEffect.dto';
+import { GetMusicDto } from '@/Dto/Music/GetMusic.dto';
 
 export type StoreType = {
   currentMenuItem: number;
@@ -13,6 +14,12 @@ export type StoreType = {
   };
   effects: {
     data: GetEffectDto[];
+    total: number;
+    page: number;
+    limit: number;
+  };
+  musics: {
+    data: GetMusicDto[];
     total: number;
     page: number;
     limit: number;
@@ -33,7 +40,12 @@ const Store: StoreType = {
     page: 1,
     limit: DEFAULT_PAGINATION_LIMIT,
   },
-
+  musics: {
+    data: [],
+    total: 0,
+    page: 1,
+    limit: DEFAULT_PAGINATION_LIMIT,
+  },
   categories: [],
 };
 export { Store };
