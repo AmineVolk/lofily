@@ -37,15 +37,39 @@ const SaveMusicDialog = ({
     });
   };
 
-  const onMusicUploaded = (serverResponse: string | null) => {
-    if (!serverResponse) {
+  const onMusicUploaded = (serverResponses: string[] | null) => {
+    logger('----- onMusicUploaded called with:', serverResponses);
+
+    if (!serverResponses || serverResponses.length === 0) {
+      logger('----- No server responses, calling noUploadError');
       return noUploadError();
     }
 
-    const serverResponseJson = JSON.parse(serverResponse);
-    // Pass the server response to the parent component
-    onValidate(music, serverResponseJson)();
-    onClose();
+    logger('----- Parsing server responses...');
+    // Parse all server responses and pass them to the parent component
+    const parsedResponses = serverResponses
+      .map((response) => {
+        try {
+          const parsed = JSON.parse(response);
+          logger('----- Successfully parsed response:', parsed);
+          return parsed;
+        } catch (error) {
+          console.error('Error parsing server response:', error);
+          return null;
+        }
+      })
+      .filter(Boolean); // Remove any null responses
+
+    logger('----- Parsed responses:', parsedResponses);
+
+    if (parsedResponses.length > 0) {
+      logger('----- Calling onValidate with parsed responses');
+      // Pass all parsed responses to the parent component
+      onValidate(music, parsedResponses)();
+      onClose();
+    } else {
+      logger('----- No valid parsed responses');
+    }
   };
 
   const MusicSection = () => {

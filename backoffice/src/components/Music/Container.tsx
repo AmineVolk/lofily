@@ -74,15 +74,14 @@ const MusicContainer = () => {
   };
 
   const onValidateCreate =
-    (newMusic: CreateMusicDto | GetMusicDto, serverResponse?: any) => () => {
-      if (serverResponse) {
-        // The server response is the music object directly
-        const newMusicData = serverResponse;
-        const updatedMusics = [...data, newMusicData];
+    (newMusic: CreateMusicDto | GetMusicDto, serverResponses?: any[]) => () => {
+      if (serverResponses && serverResponses.length > 0) {
+        // Add all new musics directly to the state
+        const updatedMusics = [...data, ...serverResponses];
         update(['musics', 'data'], updatedMusics);
 
         // Update total count
-        update(['musics', 'total'], total + 1);
+        update(['musics', 'total'], total + serverResponses.length);
       }
 
       setClickedMusic(DEFAULT_MUSIC);

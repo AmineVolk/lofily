@@ -13,18 +13,32 @@ const UploadMusic = ({
   description,
 }: {
   music: GetMusicDto;
-  onUpload: (uploaded: string | null) => void;
+  onUpload: (uploaded: string[] | null) => void;
   description: string;
 }) => {
-  const [files, setFiles] = useState([]);
-  const [uploadResponse, setUploadResponse] = useState(null);
+  const [files, setFiles] = useState<any[]>([]);
+  const [uploadResponses, setUploadResponses] = useState<string[]>([]);
 
-  const onProcessFile = (error: FilePondErrorDescription | null) => {
+  const onProcessFile = (error: FilePondErrorDescription | null, file: any) => {
     if (error) {
       logger('----- upload error ', error);
-      onUpload(null);
-    } else {
-      onUpload(uploadResponse);
+      return;
+    }
+
+    // Get the response for this specific file
+    const response = file.serverId;
+    if (response) {
+      logger('----- File processed successfully, response:', response);
+      // Add this response to our collection
+      setUploadResponses((prev) => [...prev, response]);
+
+      // Check if we have responses for all files
+      if (uploadResponses.length + 1 >= files.length) {
+        logger('----- All files processed, calling onUpload');
+        const allResponses = [...uploadResponses, response];
+        onUpload(allResponses);
+        setUploadResponses([]);
+      }
     }
   };
 
@@ -63,7 +77,6 @@ const UploadMusic = ({
     );
 
     if (!hasValidExtension) {
-      logger('----- invalid file extension rejected: ', fileName);
       setFiles([]);
       alert(
         `Extension de fichier non autorisée. Seuls les fichiers audio sont acceptés (.mp3, .wav, .ogg, .aac, .flac, .m4a).`
@@ -78,12 +91,23 @@ const UploadMusic = ({
 
   return (
     <div>
+      <div className='mb-4 text-sm text-gray-600'>
+        <p>
+          Vous pouvez glisser-déposer plusieurs fichiers audio en même temps
+        </p>
+        <p className='mt-1 text-xs'>
+          Formats acceptés: MP3, WAV, OGG, AAC, FLAC, M4A
+        </p>
+      </div>
+
       <FilePond
         files={files}
         onupdatefiles={(files) => {
           // eslint-disable-next-line @typescript-eslint/ban-ts-comment
           // @ts-ignore
           setFiles(files);
+          // Reset responses when files change
+          setUploadResponses([]);
         }}
         server={{
           process: {
@@ -93,7 +117,6 @@ const UploadMusic = ({
             url: url,
             onload: (res) => {
               console.log('📤 FilePond onload response:', res);
-              setUploadResponse(res);
               return res;
             },
             onerror: (error) => {
@@ -105,6 +128,14 @@ const UploadMusic = ({
         labelIdle={description}
         onaddfile={onAddFile}
         onprocessfile={onProcessFile}
+        allowMultiple={true}
+        maxFiles={10}
+        maxParallelUploads={3}
+        instantUpload={true}
+        chunkUploads={false}
+        allowReplace={true}
+        allowRevert={true}
+        credits={false}
       />
     </div>
   );
