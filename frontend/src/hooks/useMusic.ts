@@ -9,6 +9,7 @@ const useMusic = (): {
   currentMusic: undefined | GetMusicDto;
   next: () => void;
   previous: () => void;
+  getRandomMusic: () => Promise<void>;
 } => {
   const [currentMusicIndex, setCurrentMusicIndex] = useState<number>(0);
   const [musicResponse, setMusicResponse] = useState<GetMusicPagination>({
@@ -80,12 +81,41 @@ const useMusic = (): {
   // used only to trigger new call, the backend dont use the page, beacause we need to get random music.
   const pageToFetch = getPage();
 
+  const getRandomMusic = async () => {
+    try {
+      const randomMusic = await MusicApi.getRandom(1);
+      if (randomMusic && randomMusic.length > 0) {
+        setMusicResponse({
+          data: randomMusic,
+          total: 1,
+          page: 1,
+          limit: 1,
+        });
+        setCurrentMusicIndex(0);
+      }
+    } catch (error) {
+      logger('Error fetching random music:', error);
+    }
+  };
+
   const getMusic = async () => {
     logger('-----------------------------------pageToFetch  ', pageToFetch);
-    MusicApi.getAll(musicResponse.limit, pageToFetch).then((result) => {
-      setMusicResponse(result);
-      resetCurrentMusicIndexAfterFetch();
-    });
+    // Utiliser la randomisation côté backend pour avoir des musiques différentes à chaque fois
+    MusicApi.getAll(musicResponse.limit, pageToFetch, true)
+      .then((result) => {
+        setMusicResponse(result);
+        resetCurrentMusicIndexAfterFetch();
+      })
+      .catch((error) => {
+        logger('Error fetching music:', error);
+        // En cas d'erreur, essayer sans random
+        MusicApi.getAll(musicResponse.limit, pageToFetch, false).then(
+          (result) => {
+            setMusicResponse(result);
+            resetCurrentMusicIndexAfterFetch();
+          }
+        );
+      });
   };
 
   useEffect(() => {
@@ -97,6 +127,7 @@ const useMusic = (): {
     currentMusic,
     next,
     previous,
+    getRandomMusic,
   };
 };
 

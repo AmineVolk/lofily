@@ -15,6 +15,7 @@ import { MusicStatus } from '@/services/redux-state/Store';
 
 import { MusicInfos } from './MusicInfos';
 import { MusicVolume } from './MusicVolume';
+
 const VOLUME_MAX = 100;
 
 const MusicPlayer = () => {
@@ -93,7 +94,7 @@ const MusicPlayer = () => {
 
       <div
         className={clsx([
-          'absolute  left-1/2 bottom-4 z-50  flex -translate-x-1/2 transform justify-center downSm:w-[205px]',
+          'absolute  bottom-4 left-1/2 z-50  flex -translate-x-1/2 transform justify-center downSm:w-[205px]',
           !isActive && 'hidden',
         ])}
       >

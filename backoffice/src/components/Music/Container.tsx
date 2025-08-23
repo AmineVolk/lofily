@@ -100,6 +100,7 @@ const MusicContainer = () => {
   const loadMusics = () => {
     MusicApi.getAll(limit, page).then(({ data }) => {
       update(['musics', 'data'], data.data);
+      update(['musics', 'total'], data.total);
     });
   };
 
@@ -107,9 +108,13 @@ const MusicContainer = () => {
     loadMusics();
   }, []);
 
+  // Reload musics when page or limit changes
+  useEffect(() => {
+    loadMusics();
+  }, [page, limit]);
+
   return (
     <div className='flex h-full flex-1 flex-col'>
-      {data.length ? 'data' : 'nodata'}
       <MusicList
         data={data}
         total={total}

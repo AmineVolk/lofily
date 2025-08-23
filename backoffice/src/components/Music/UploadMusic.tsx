@@ -78,9 +78,7 @@ const UploadMusic = ({
 
     if (!hasValidExtension) {
       setFiles([]);
-      alert(
-        `Extension de fichier non autorisée. Seuls les fichiers audio sont acceptés (.mp3, .wav, .ogg, .aac, .flac, .m4a).`
-      );
+
       return;
     }
 
@@ -129,8 +127,6 @@ const UploadMusic = ({
         onaddfile={onAddFile}
         onprocessfile={onProcessFile}
         allowMultiple={true}
-        maxFiles={10}
-        maxParallelUploads={3}
         instantUpload={true}
         chunkUploads={false}
         allowReplace={true}

@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 const AudioListener = ({ url }: { url: string }) => {
+  console.log('AudioListener | url', url);
   const [audioStatus, changeAudioStatus] = useState(false);
   const [audio, setAudio] = useState(new Audio(url));
 
